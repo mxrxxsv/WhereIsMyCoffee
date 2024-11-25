@@ -1,20 +1,104 @@
-<ion-header [translucent]="true">
+<!-- <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-button>
+      <ion-icon name="search-outline"></ion-icon>
+    </ion-button>
+    <ion-title class="header_txt ion-no-border"> Explore </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="background">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid>
+    <ion-row>
+
+      <!--  -->
+      <ion-col>
+        <div class="search">
+          <ion-icon name="search-outline" class="ic"></ion-icon>
+        </div>
+      </ion-col>
+      <!--  -->
+
+      <!--  -->
+      <ion-col>
+        <ion-title class="header_txt">
+          Explore
+        </ion-title>
+      </ion-col>
+      <!--  -->
+
+      <!--  -->
+      <ion-col>
+        <div class="notif">
+          <ion-icon name="notifications-outline" class="ix"></ion-icon>
+        </div>
+      </ion-col>
+      <!--  -->
+
+
+    </ion-row>
+
+    <!-- 2nd row -->
+
+    <ion-row class="ion-padding-top">
+
+      <ion-col>
+        <div class="searchx">
+          <ion-icon name="copy-outline" class="ic"></ion-icon>
+        </div>
+      </ion-col>
+
+      <!--  -->
+
+      <ion-col>
+        <div class="center-search">
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </div>
+      </ion-col>
+
+      <!--  -->
+
+      <ion-col>
+
+        <div class="searchx">
+          <ion-icon name="images-outline" class="ic"></ion-icon>
+        </div>
+
+      </ion-col>
+
+      <ion-col>
+
+        <div class="search">
+          <ion-icon name="map-outline" class="ic"></ion-icon>
+        </div>
+
+      </ion-col>
+
+
+      
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-card class="cardx">
+    <ion-img src="https://lh3.googleusercontent.com/p/AF1QipOHcfyner-QOCx70Kmxyx9a-eGXeXdQABjNIXY1=s1360-w1360-h1020"></ion-img>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+        <ion-col class="date">
+          <ion-icon name="calendar-outline" class="icon-calendar"></ion-icon>
+          <p>Nov 25-Dec 5</p>
+        </ion-col>
+
+        <ion-col class="date">
+          <ion-icon name="location-outline"  class="icon-calendar"></ion-icon>
+          <p style="font-size: 13px;">Wellspring Complex</p>
+        </ion-col>
+      </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  
 </ion-content>
