@@ -1,0 +1,28 @@
+ion-content {
+  // Targeting the swiper-container inside ion-content
+  swiper-container {
+    --swiper-pagination-color: var(--color-primary); // Pagination color
+    height: 100%; // Full height for swiper container
+
+    // Targeting each swiper-slide (or div inside swiper-slide)
+    div {
+      height: 100%; // Ensure the div inside takes full height of the slide
+      background-position: center; // Center the background image
+      background-size: cover; // Ensure the image covers the div
+      background-repeat: no-repeat; // Prevent repeating the background image
+    }
+  }
+}
+
+ion-footer {
+  ion-toolbar {
+    --background: #000; // Set background color of the toolbar to black
+    padding: 10px; // Padding inside the toolbar
+
+    ion-button {
+      ion-text {
+        font-size: 0.9rem; // Set font size for the button text
+      }
+    }
+  }
+}
