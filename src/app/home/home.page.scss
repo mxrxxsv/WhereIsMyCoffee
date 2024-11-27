@@ -1,5 +1,5 @@
 ion-content{
-  background-color: #080404;
+  --background-color: #080404;
 }
 
 .header_txt{
@@ -10,11 +10,11 @@ ion-content{
 .search{
   margin-left: 4px;
   margin-top: 2px;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius:100px;
-  background-color: #e1e1d5 ;
-  color: #252525;
+  // background-color: #e1e1d5 ;
+  // color: #252525;
   padding: 11px;
   font-size: 24px;
   text-align: center;
@@ -22,20 +22,25 @@ ion-content{
 
 .notif{
   position: relative;
-  left: 60px;
+  left: 55px;
 
   margin-top: 2px;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius:100px;
-  background-color: #e1e1d5 ;
-  color: #252525;
-  padding: 11px;
-  font-size: 24px;
+  // background-color: #e1e1d5 ;
+  // color: #252525;
+  // font-size: 24px;
   text-align: center;
 }
 
 .ic{
+  position: relative;
+  bottom: -2px;
+  right: -1px;
+}
+
+.iz{
   position: relative;
   bottom: 2px;
   right: 2px;
@@ -47,7 +52,7 @@ ion-content{
   right: 2px;
 }
 
-.searchx{
+.searchy{
   margin-left: 4px;
   margin-top: 2px;
   height: 40px;
@@ -60,12 +65,38 @@ ion-content{
   text-align: center;
 }
 
-.center-search{
-  position: relative;
-  right: 5px;
+.searchx{
+  margin-left: 17px;
   margin-top: 2px;
   height: 40px;
-  width: 150px;
+  width: 40px;
+  border-radius:100px;
+  background-color:#080404 ;
+  color: #ffffff;
+  padding: 11px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.location{
+  margin-left: 4px;
+  margin-top: 2px;
+  height: 40px;
+  width: 40px;
+  border-radius:100px;
+  background-color: #e1e1d5 ;
+  color: #252525;
+  padding: 11px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.center-search{
+  position: relative;
+  right: -4px;
+  margin-top: 2px;
+  height: 40px;
+  width: 160px;
   border-radius:100px;
   background-color:#080404 ;
   color: #ffffff;
