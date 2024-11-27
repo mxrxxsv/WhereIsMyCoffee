@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+}
+
+.cardx{
+    border-radius: 20px;
+    // background-color: #e1e1d5 ;
+  }
+  
+  .date{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .icon-calendar{
+    position: relative; 
+    top: 2px; 
+    padding-right: 8px;
+  }
+
+  .other_pic{
+    border-radius: 10px;
+    height: 170px;
+    width: 155px;
+  }
+
+  .prof{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+  }
+
+  .name{
+    padding-top: 4px;
+    padding-left: 16px;
+    color: #252525;
+    font-weight: bold;
+  }
+
+  .rev{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .date{
+    padding-left: 16px;
+  }

@@ -16,7 +16,11 @@ const routes: Routes = [
     path: 'welcome',
     loadChildren: () =>
       import('./welcome/welcome.module').then((m) => m.WelcomePageModule),
+  },  {
+    path: 'coffee-page',
+    loadChildren: () => import('./coffee-page/coffee-page.module').then( m => m.CoffeePagePageModule)
   },
+
 ];
 
 @NgModule({
