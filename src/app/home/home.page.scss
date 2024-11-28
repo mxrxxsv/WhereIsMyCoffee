@@ -104,10 +104,13 @@ ion-content{
 
 .cardx{
   border-radius: 20px;
-  // background-color: #e1e1d5 ;
+  height: 320px;
 }
 
-.date{
+.loc{
+  position: relative;
+  right: 102px;
+  top: 2px;
   display: flex;
   flex-direction: row;
 }
@@ -116,4 +119,31 @@ ion-content{
   position: relative; 
   top: 2px; 
   padding-right: 8px;
+}
+
+.prof{
+  height: 57px;
+  width: 57px;
+  border: 2px solid #252525;
+  border-radius: 100px;
+  background-color: #080404;
+  position: relative;
+  bottom: 40px;
+  right: 16px;
+}
+
+.rate{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 260px;
+  bottom: 70px;
+
+
+}
+
+.rating{
+  position: relative;
+  bottom: 2px;
+  padding-left: 8px;
 }

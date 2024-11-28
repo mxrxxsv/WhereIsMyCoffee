@@ -20,6 +20,10 @@ const routes: Routes = [
     path: 'coffee-page',
     loadChildren: () => import('./coffee-page/coffee-page.module').then( m => m.CoffeePagePageModule)
   },
+  {
+    path: 'shop-profile',
+    loadChildren: () => import('./shop-profile/shop-profile.module').then( m => m.ShopProfilePageModule)
+  },
 
 ];
 

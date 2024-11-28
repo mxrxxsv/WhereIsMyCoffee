@@ -1,0 +1,78 @@
+.back {
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: #fefefe;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+
+}
+
+.iback{
+    font-size: 24px;
+    position: relative;
+    left: 7px;
+    top: 10px;
+}
+
+.heart{
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    background-color: #fefefe;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+}
+
+.iheart{
+    font-size: 24px;
+    position: relative;
+    left: 9px;
+    top: 10px;
+}
+
+.card {
+    height: 320px;
+    border-radius: 20px;
+}
+
+.name {
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+.loc {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.icon-calendar {
+    font-size: 24px;
+    padding-left: 18px;
+    padding-right: 8px;
+}
+
+.rate {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    position: relative;
+    bottom: 49px;
+    padding-left: 125px;
+}
+
+.text {
+    position: absolute;
+    top: 410px;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 22px;
+}
